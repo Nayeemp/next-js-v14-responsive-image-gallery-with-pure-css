@@ -1,0 +1,18 @@
+.image-galary {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 575px) {
+  .image-galary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .image-galary {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

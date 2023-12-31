@@ -1,0 +1,20 @@
+.img-container {
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+}
+
+.image-title {
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+
+.img-item-container {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.img-item-container:hover {
+  border: 1px solid #833586;
+}
